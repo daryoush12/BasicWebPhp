@@ -1,0 +1,48 @@
+.container-fluid {
+min-height: 86.5vh;
+min-width: 60vw;
+background-color: #e6e6e6;
+
+}
+
+
+footer {
+    min-height:  5vh;
+    background-color: #111;
+    color: white;
+
+}
+
+datatable {
+    background-color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    min-height:  5vh;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.priority_high{color: red;}
+.priority_medium{color: yellow;}
+.priority_low{color: green;}
